@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="geometrie_mit_gescheiter_vererbung_2" size="1162,618" id="geometrie_mit_gescheiter_vererbung" metadata="uml2-1.0" initialized="true" scrolledX="-5" tag="1000" key="32303037303533312D313030302047656F6D65747269652F6E69636B2E73616C7A6D616E6E5F3137">
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="435,50" size="75,67" id="geometrie_mit_gescheiter_vererbung/Main" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="geometrie_mit_gescheiter_vererbung/Main#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Kreis" location="486,495" size="118,103" id="geometrie_mit_gescheiter_vererbung/Kreis" runTimeClassModel="datenEingabe(),umfang(),flaeche()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,54">
+      <children xsi:type="editmodel:MethodEditModel" name="datenEingabe" id="geometrie_mit_gescheiter_vererbung/Kreis#datenEingabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flaeche" id="geometrie_mit_gescheiter_vererbung/Kreis#flaeche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="umfang" id="geometrie_mit_gescheiter_vererbung/Kreis#umfang()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="geometrie_mit_gescheiter_vererbung/Ellipse&lt;-geometrie_mit_gescheiter_vererbung/Kreis" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0" name="GeomFig" location="169,50" size="124,211" id="geometrie_mit_gescheiter_vererbung/GeomFig" runTimeClassModel="datenEingabe(),datenAusgabe(),flaeche,umfang(),umfang,einheit1,flaeche(),in,einheit2">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="einheit1" id="geometrie_mit_gescheiter_vererbung/GeomFig#einheit1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="einheit2" id="geometrie_mit_gescheiter_vererbung/GeomFig#einheit2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="flaeche" id="geometrie_mit_gescheiter_vererbung/GeomFig#flaeche"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="in" id="geometrie_mit_gescheiter_vererbung/GeomFig#in"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="umfang" id="geometrie_mit_gescheiter_vererbung/GeomFig#umfang"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:MethodEditModel" name="datenAusgabe" id="geometrie_mit_gescheiter_vererbung/GeomFig#datenAusgabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="datenEingabe" id="geometrie_mit_gescheiter_vererbung/GeomFig#datenEingabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flaeche" id="geometrie_mit_gescheiter_vererbung/GeomFig#flaeche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="umfang" id="geometrie_mit_gescheiter_vererbung/GeomFig#umfang()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Quadrat" location="184,495" size="118,103" id="geometrie_mit_gescheiter_vererbung/Quadrat" runTimeClassModel="datenEingabe(),umfang(),flaeche()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,54">
+      <children xsi:type="editmodel:MethodEditModel" name="datenEingabe" id="geometrie_mit_gescheiter_vererbung/Quadrat#datenEingabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flaeche" id="geometrie_mit_gescheiter_vererbung/Quadrat#flaeche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="umfang" id="geometrie_mit_gescheiter_vererbung/Quadrat#umfang()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="geometrie_mit_gescheiter_vererbung/Rechteck&lt;-geometrie_mit_gescheiter_vererbung/Quadrat" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Ellipse" location="483,330" size="124,121" id="geometrie_mit_gescheiter_vererbung/Ellipse" runTimeClassModel="datenEingabe(),datenAusgabe(),umfang(),flaeche()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:MethodEditModel" name="datenAusgabe" id="geometrie_mit_gescheiter_vererbung/Ellipse#datenAusgabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="datenEingabe" id="geometrie_mit_gescheiter_vererbung/Ellipse#datenEingabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flaeche" id="geometrie_mit_gescheiter_vererbung/Ellipse#flaeche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="umfang" id="geometrie_mit_gescheiter_vererbung/Ellipse#umfang()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="geometrie_mit_gescheiter_vererbung/GeomFig&lt;-geometrie_mit_gescheiter_vererbung/Ellipse" source="//@children.4" target="//@children.6/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Rechteck" location="181,330" size="124,121" id="geometrie_mit_gescheiter_vererbung/Rechteck" runTimeClassModel="datenEingabe(),datenAusgabe(),umfang(),flaeche()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:MethodEditModel" name="datenAusgabe" id="geometrie_mit_gescheiter_vererbung/Rechteck#datenAusgabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="datenEingabe" id="geometrie_mit_gescheiter_vererbung/Rechteck#datenEingabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flaeche" id="geometrie_mit_gescheiter_vererbung/Rechteck#flaeche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="umfang" id="geometrie_mit_gescheiter_vererbung/Rechteck#umfang()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="geometrie_mit_gescheiter_vererbung/GeomFig&lt;-geometrie_mit_gescheiter_vererbung/Rechteck" source="//@children.5" target="//@children.6/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Dreieck" location="0,330" size="124,121" id="geometrie_mit_gescheiter_vererbung/Dreieck" runTimeClassModel="datenEingabe(),datenAusgabe(),umfang(),flaeche()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:MethodEditModel" name="datenAusgabe" id="geometrie_mit_gescheiter_vererbung/Dreieck#datenAusgabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="datenEingabe" id="geometrie_mit_gescheiter_vererbung/Dreieck#datenEingabe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flaeche" id="geometrie_mit_gescheiter_vererbung/Dreieck#flaeche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="umfang" id="geometrie_mit_gescheiter_vererbung/Dreieck#umfang()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.4/@sourceConnections.0" autoLocated="true" id="geometrie_mit_gescheiter_vererbung/GeomFig&lt;-geometrie_mit_gescheiter_vererbung/Dreieck" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,210" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
